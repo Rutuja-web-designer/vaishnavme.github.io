@@ -1,0 +1,260 @@
+/*Common CSS*/
+body ,html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+.pg-title {
+  color: #233d63;
+  font-size: 42px;
+  font-weight: 500;
+}
+/*End Common CSS */
+
+#home {
+  height: 100vh;
+}
+#service {
+  margin: 2em 0 0;
+}
+.bgstyle {
+/* background: linear-gradient(136deg, #1ad7c0, #8E44AD, #ff9b11, #1F3A93, #ddd8c6, #000000, #000000);  */
+background: linear-gradient(
+  136deg,
+  #1f3a93,
+  #4484ce,
+  #1ad7c0,
+  #ff9b11,
+  #9b59b6,
+  #efefef,
+  #000000,
+  #ecf0f1
+);
+
+background-size: 1200% 1200%;
+-webkit-animation: AnimationName 70s ease infinite;
+-moz-animation: AnimationName 70s ease infinite;
+-o-animation: AnimationName 70s ease infinite;
+animation: AnimationName 70s ease infinite;
+height: 100%;
+}
+
+@-webkit-keyframes AnimationName {
+0% {
+  background-position: 0% 7%;
+}
+50% {
+  background-position: 100% 94%;
+}
+100% {
+  background-position: 0% 7%;
+}
+}
+
+@-moz-keyframes AnimationName {
+0% {
+  background-position: 0% 7%;
+}
+50% {
+  background-position: 100% 94%;
+}
+100% {
+  background-position: 0% 7%;
+}
+}
+
+@-o-keyframes AnimationName {
+0% {
+  background-position: 0% 7%;
+}
+50% {
+  background-position: 100% 94%;
+}
+100% {
+  background-position: 0% 7%;
+}
+}
+
+@keyframes AnimationName {
+0% {
+  background-position: 0% 7%;
+}
+50% {
+  background-position: 100% 94%;
+}
+100% {
+  background-position: 0% 7%;
+}
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 3em 0 0;
+  width: 100%;
+  color: #ffffff;
+}
+.info-me {
+  padding: 7em 0 0;
+}
+.info-me h2 {
+  font-size: calc(18px + .5vw);
+  font-family: 'Libre Baskerville', serif;
+}
+.info-me h1{
+  font-size: calc(12px + 5vw);
+  font-family: 'Libre Baskerville', serif;
+}
+.info-me p {
+  font-weight: 500;
+  font-size: calc(16px + .3vw);
+  padding-top: 30px;
+}
+.btn-outline {
+margin-top: 2em;
+background-color: transparent;
+color: #ffffff;
+border: #ffffff solid 2px;
+}
+.btn-outline:hover {
+color: #ffffff;
+background-color: #1d1d1d;
+border: #1d1d1d solid 2px;
+}
+.social-icons
+{
+padding-left:0;
+margin-bottom:0;
+list-style:none
+}
+.social-icons li
+{
+display:inline-block;
+margin-bottom:4px;
+padding: 0 5px 0;
+}
+.social-icons a{
+  background-color:#ffffff;
+  color:#1d1d1d;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a.github:hover
+{
+background-color:#24292e;
+color: #ffffff;
+transform: scale(1.1);
+transition: 0.6s;
+}
+.social-icons a.instagram:hover
+{
+background-color: #fd825e;
+color: #ffffff;
+transform: scale(1.1);
+transition: 0.6s;
+}
+.social-icons a.linkedin:hover
+{
+background-color:#00b9ff;
+color: #ffffff;
+transform: scale(1.1);
+transition: 0.6s;
+}
+.social-icons a.mail:hover
+{
+background-color:#df574b;
+color: #ffffff;
+transform: scale(1.1);
+transition: 0.6s;
+}
+.abt {
+  padding: 2em 0 0;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.abt img {
+  width: 180px;
+  height: auto;
+  border: 4px #ffffff solid;
+  
+  margin-bottom: 15px;
+}
+.card {
+  color: #616161;
+  margin: 2em 0 0;
+  min-height: 280px;
+  border-width: 0;
+  border-bottom: #ffc10f 3px solid;
+  box-shadow: 0 10px 25px -10px rgba(72, 29, 99, 0.18);
+}
+.card h3{
+  color: #000000;
+  font-size: 18px;
+  font-weight: 500;
+  padding-bottom: 2px;
+}
+.card p {
+  font-size: 18px;
+  font-weight: 300;
+  text-align: start;
+}
+.icon {
+  font-size: 40px;
+  color: #ffc10f;
+  padding: 0 0 1rem;
+}
+
+.hire-info {
+  width: 460px;
+}
+.footer {
+  padding: 15px 0 10px;
+  text-align: center;
+}
+.ft-img {
+  width: 160px;
+  height: auto;
+  border-radius: 50%;
+  border: #ecf0f1 4px solid;
+}
+.jumbotron {
+  background-image: linear-gradient(to right top, #ff9671, #ffac69, #ffc465, #ffde66, #f9f871);
+}
+.jtext {
+  color: #000000;
+}
+.btn-outline-info {
+  color: #ffffff;
+  border: #ffffff 2px solid;
+}
+.btn-outline-info:hover {
+  color: #ffffff;
+  border: #ffc10f 2px solid;
+  background: linear-gradient(to right, #f5af19, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.hire {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+}
