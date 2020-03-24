@@ -13,7 +13,16 @@ Message me so I would love to see your version of it.
 
 -------
 
+### Dependencies
+• HTML
+
+• CSS
+
+• JavaScript
+
+------
+
 ### Upcoming features
-• Blog page (things to make it with <b>makesite.py</b>) <br>
+• Blog page (will use <b>makesite.py</b>) <br>
 • Resume 
 
