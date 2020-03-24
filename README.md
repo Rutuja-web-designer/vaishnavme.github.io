@@ -7,3 +7,13 @@ Demo: https://vaishnavme.github.io
 
 
 gh-page is built with HTML, CSS3 and Javascript.
+
+Feel free to copy and modify. 
+Message me so I would love to see your version of it.
+
+-------
+
+### Upcoming features
+• Blog page (things to make it with <b>makesite.py</b>) <br>
+• Resume 
+
