@@ -23,6 +23,6 @@ Message me so I would love to see your version of it.
 ------
 
 ### Upcoming features
-• Blog page (will use <b>makesite.py</b>) <br>
+• Blog page
 • Resume 
 
